@@ -1,0 +1,108 @@
+.page{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Space Grotesk", serif;;
+    background-color: #ffffff;
+    color: #000000;
+
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.cont{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, p, a{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 107%;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 111%;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 110%;
+}
+
+:root{
+    --marginTop: 150px;
+    --paddingSide: 100px;
+}
+
+
+@media screen and (width <= 780px) {
+    h1{
+        font-size: 70px;
+    }
+
+    h2{
+        font-size: 60px;
+    }
+
+    h3{
+        font-size: 54px;
+    }
+
+    h4{
+        font-size: 60px;
+    }
+    
+
+    :root{
+        --marginTop: 70px;
+        --paddingSide: 70px;
+    }
+    
+}
+
+@media screen and (width <= 480px) {
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 44px;
+    }
+
+    h4{
+        font-size: 50px;
+    }
+
+    :root{
+        --marginTop: 40px;
+        --paddingSide: 40px;
+    }
+    
+}
